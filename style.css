@@ -97,50 +97,29 @@ button:focus-visible {
   }
 }
 
-.last-section {
-  width: 1920px;
-  height: 89.8px;
-  top: 471.45px;
-  border: 1px;
-}
-
-
+/* --header-- */
 
 .big-picture {
   background-size: cover;
   width: 100vw;
   background-position: center;
-  background-image: url('/assets/iteration-1/home-banner.png');
-  background-color: #CE2829;
+  background-image: url('public/assets/iteration-1/home-banner.png');
   text-align:center; 
   height: 1080px;
   background-size: cover;
   background-position: center;
 }
+
 .big-picture .top-pic{ 
   width: 300px;
 }
+
 .big-picture h1{ /*fırsatı kaçırma*/
   margin-top: 10px;
   text-align: center;
   color:#FDC913;
   font-family:'Satisfy';
   font-size: 32px;
-}
-.big-picture a { /* ACIKTIM */
-  justify-content: center;
-  padding: 10px 20px;
-  color: black;
-  text-align: center;
-  background-color: #FDC913;
-  border:#FDC913 solid ;
-  border-radius: 50px;
-  font-weight: 400;
-  font-size: 20px;
-  
-}
-.big-picture a:hover {
-  cursor: pointer;
 }
 
 .big-picture p { /* KOD ACIKTIRIR PIZZA, DOYURUR */
@@ -152,24 +131,35 @@ button:focus-visible {
   color: white;
 }
 
+.big-picture a { /* ACIKTIM */
+  justify-content: center;
+  padding: 10px 20px;
+  color: black;
+  text-align: center;
+  background-color: #FDC913;
+  border:#FDC913 solid ;
+  border-radius: 50px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.big-picture a:hover {
+  cursor: pointer;
+}
+
 nav{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: white;
-  
+  background-color: rgb(0, 255, 255);
 }
+
 .list-item{
   align-items: center;
   justify-content: center;
   text-align: center;
+}
 
-}
-.list-item img{
-  width: 30px;
-  height: 30px;
-  padding: 10px;
-}
 .list-item a{
   display: flex;
   flex-direction: row;
@@ -177,15 +167,27 @@ nav{
   font-weight:bold; 
   padding: 10px; 
 }
-.list-item p{
-  font-size: 12px;
-  color:black;
-}
+
 .list-item a:hover{
   background-color: rgb(0,0,0,.2);
   transition: all 0.3s ease-in-out;
 }
 
+.list-item img{
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+}
+
+.list-item p{
+  font-size: 12px;
+  color:black;
+}
+
+/* --header-- */
+
+
+/* --section-- */
 
 .promotion{
   display: flex; 
@@ -201,8 +203,6 @@ nav{
   width: 531px;
   height: 449px;
   border-radius: 12px;
-
-
 }
 
 .right-img{
@@ -212,9 +212,7 @@ nav{
   width: 530px; 
   padding: 0;
   margin: 0;
-  
 }
-
 
 .img-1 {
   background-image: url('/assets/iteration-2/cta/kart-2.png');
@@ -250,8 +248,6 @@ nav{
   letter-spacing: 0%;
   vertical-align: middle;
   padding: 10px;
-  
-
 }
 
 .img-1 h3 {
@@ -262,7 +258,6 @@ nav{
   vertical-align: middle;
   color: white;
   width: 40%;
-  
 }
 
 .img-2 h3 {
@@ -272,7 +267,6 @@ nav{
   letter-spacing: 0%;
   vertical-align: middle;
   color: #292929;
-  
 }
 
 .cok {
@@ -293,7 +287,11 @@ nav{
   text-align: center;
 }
 
+/* --section-- */
+
+
 /* --footer-- */
+
 footer {
   background-color: #1A1A1A;
   width: 1920px;
